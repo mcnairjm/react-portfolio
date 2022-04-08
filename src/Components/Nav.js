@@ -1,18 +1,19 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import Navlink from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 function Navigation() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-        <Navbar.Brand href="#home">John McNair</Navbar.Brand>
+        <Navbar.Brand>John McNair</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <NavLink to = "/about">About</NavLink>
+            <NavLink to ="/projects">Projects</NavLink>
+            <NavLink to="/resume">Resume</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             </Nav>
         </Navbar.Collapse>
         </Container>

@@ -1,13 +1,13 @@
 import johnImage from '../Assets/John/me.jpg';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 
-function About() {
+const AboutMe = () => {
     return (
         <MDBContainer className='mt-5'>
             <MDBRow>
                 <MDBCol md='12'>
                     <h2>About Me</h2>
-                    <hr class="solid bg=dark"/>
+                    <hr className="solid bg=dark"/>
                     <img src={johnImage} style={{ height: '285px' }} alt='John McNair'></img>
                     <br></br>
                     <br></br>
@@ -22,4 +22,4 @@ function About() {
     );
 }
 
-export default About;
+export default AboutMe;
