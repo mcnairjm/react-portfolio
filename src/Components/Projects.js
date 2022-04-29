@@ -2,6 +2,12 @@ import { Card } from 'react-bootstrap';
 
 const projects = [
   {
+    title: 'Cropify',
+    description: 'Crop scheduling app using the MERN stack',
+    image: 'https://raw.githubusercontent.com/mcnairjm/react-portfolio/main/src/Assets/John/veggies.jpg',
+    link: 'https://github.com/woffordlm/farm-app-crop-planner'
+  },
+  {
     title: 'Prost 4.0',
     description: 'Cocktail App for local restaurant ALley 26',
     image: 'https://raw.githubusercontent.com/mcnairjm/react-portfolio/main/src/Assets/John/alleysign2.jpg',
